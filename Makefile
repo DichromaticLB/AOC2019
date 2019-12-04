@@ -5,7 +5,7 @@ TARGET =	AOC2019
 $(OBJS):	include/*.hpp
 
 $(TARGET):	$(OBJS) Makefile
-	$(CXX) -o $(TARGET) $(OBJS) $(LIBS)
+	$(CXX) -o $(TARGET) $(OBJS)
 
 all:	$(TARGET)
 
