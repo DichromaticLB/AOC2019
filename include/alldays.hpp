@@ -5,5 +5,6 @@
 #include"day2.hpp"
 #include"day3.hpp"
 #include"day4.hpp"
+#include"day5.hpp"
 
 #endif

@@ -17,10 +17,13 @@ int main(void) {
 	day3 d3("input/day3");
 	d3.getResult();
 	d3.getResult2();
-*/
+
 	day4 d4(387638,919123);
 	d4.getResult();
 	d4.getResult2();
-
+	*/
+	day5 d5("input/day5");
+	d5.getResult();
+	d5.getResult2();
 	return 0;
 }
