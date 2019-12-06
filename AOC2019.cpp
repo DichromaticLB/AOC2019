@@ -21,9 +21,13 @@ int main(void) {
 	day4 d4(387638,919123);
 	d4.getResult();
 	d4.getResult2();
-	*/
+
 	day5 d5("input/day5");
 	d5.getResult();
 	d5.getResult2();
+	*/
+	day6 d6("input/day6");
+	d6.getResult();
+	d6.getResult2();
 	return 0;
 }
