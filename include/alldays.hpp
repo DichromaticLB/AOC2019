@@ -7,4 +7,5 @@
 #include"day4.hpp"
 #include"day5.hpp"
 #include"day6.hpp"
+#include"day7.hpp"
 #endif

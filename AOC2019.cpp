@@ -25,9 +25,14 @@ int main(void) {
 	day5 d5("input/day5");
 	d5.getResult();
 	d5.getResult2();
-	*/
+
 	day6 d6("input/day6");
 	d6.getResult();
 	d6.getResult2();
+		*/
+	day7 d7("input/day7");
+	d7.getResult();
+	d7.getResult2();
+
 	return 0;
 }

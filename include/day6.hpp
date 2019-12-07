@@ -61,7 +61,6 @@ struct day6{
 		celestials["COM"];
 		while(!in.fail())
 		{
-
 			std::string orbitee=i.substr(0,3);
 			std::string orbiter=i.substr(4,3);
 			celestials[orbitee].orbits.push_back(orbiter);
@@ -91,7 +90,4 @@ struct day6{
 	std::map<std::string,elem> celestials;
 
 };
-
-
-
 #endif
