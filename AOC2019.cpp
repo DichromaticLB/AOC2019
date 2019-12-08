@@ -29,10 +29,13 @@ int main(void) {
 	day6 d6("input/day6");
 	d6.getResult();
 	d6.getResult2();
-		*/
+
 	day7 d7("input/day7");
 	d7.getResult();
 	d7.getResult2();
-
+		*/
+	day8 d8("input/day8");
+	//d8.getResult();
+	d8.getResult2();
 	return 0;
 }
