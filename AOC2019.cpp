@@ -1,8 +1,6 @@
 #include"include/alldays.hpp"
 #include<cmath>
-
-
-
+#include<cassert>
 
 int main(void) {
 /*
@@ -33,9 +31,15 @@ int main(void) {
 	day7 d7("input/day7");
 	d7.getResult();
 	d7.getResult2();
-		*/
+
 	day8 d8("input/day8");
-	//d8.getResult();
+	d8.getResult();
 	d8.getResult2();
+*/
+
+	day9 d9("input/day9");
+	d9.getResult();
+	d9.getResult2();
+
 	return 0;
 }
