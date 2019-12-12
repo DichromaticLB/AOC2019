@@ -1,10 +1,10 @@
-CXXFLAGS =	-O0 -g3 -Wall
+CXXFLAGS =	-std=c++1y -O0 -g -Wall
 OBJS =		AOC2019.o
 TARGET =	AOC2019
 
-$(OBJS):	include/*.hpp
+$(OBJS):	include/*.hpp Makefile
 
-$(TARGET):	$(OBJS) Makefile
+$(TARGET):	$(OBJS) 
 	$(CXX) -o $(TARGET) $(OBJS)
 
 all:	$(TARGET)

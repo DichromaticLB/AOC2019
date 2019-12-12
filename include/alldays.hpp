@@ -12,4 +12,5 @@
 #include"day9.hpp"
 #include"day10.hpp"
 #include"day11.hpp"
+#include"day12.hpp"
 #endif
