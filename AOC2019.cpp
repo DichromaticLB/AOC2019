@@ -3,7 +3,14 @@
 #include<cassert>
 #include<algorithm>
 #include<cmath>
-//#include"include/intcodeDis.hpp"
+
+
+void fill(){
+
+}
+
+
+
 
 int main(void) {
 /*
@@ -56,11 +63,13 @@ int main(void) {
 	day12 d12("input/day12");
 	d12.getResult();
 	d12.getResult2();
-*/
+
 	day13 d13("input/day13");
 	d13.getResult();
 	d13.getResult2();
-
-
+*/
+	day14 d14("input/day14");
+	d14.getResult();
+	d14.getResult2();
 	return 0;
 }
