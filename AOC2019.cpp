@@ -1,16 +1,4 @@
 #include"include/alldays.hpp"
-#include<cmath>
-#include<cassert>
-#include<algorithm>
-#include<cmath>
-
-
-void fill(){
-
-}
-
-
-
 
 int main(void) {
 /*
@@ -67,9 +55,15 @@ int main(void) {
 	day13 d13("input/day13");
 	d13.getResult();
 	d13.getResult2();
-*/
+
+
 	day14 d14("input/day14");
 	d14.getResult();
 	d14.getResult2();
+	*/
+
+	day15 d15("input/day15");
+	d15.getResult();
+	d15.getResult2();
 	return 0;
 }

@@ -31,7 +31,7 @@ struct day14{
 
 
 	day14(const string& filename){
-		ifstream i=ifstream("input/day14");
+		ifstream i=ifstream(filename);
 		element b;
 		molecule m;
 		bool result=false;
@@ -109,22 +109,21 @@ struct day14{
 
 	void getResult2(){
 
-		proportion unit={{"FUEL",-100}};
+		proportion unit={{"FUEL",-1000}};
 		minCost(unit);
 
 		int64_t limit=1000000000000;
 		int64_t cost=-unit["ORE"];
-		int64_t step=limit/cost,done=0;
+		int64_t step=(limit/cost*1000),done=0;
 		proportion iter={{"FUEL",0}};
 
 		while(step>10)
 		{
 			step/=2;
 			done+=step;
- 			iter["FUEL"]=-step*100;
+ 			iter["FUEL"]=-step;
 			minCost(iter);
 		}
-		done*=100;
 		while(iter["ORE"]+limit>0)
 		{
 			iter["FUEL"]=-1;
@@ -132,8 +131,6 @@ struct day14{
 			done++;
 		}
 		cout<<"Could make a total of "<<(done-1)<<" units of fuel with "<<limit<<" ore"<<endl;
-
-
 	}
 
 
