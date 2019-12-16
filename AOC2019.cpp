@@ -60,10 +60,16 @@ int main(void) {
 	day14 d14("input/day14");
 	d14.getResult();
 	d14.getResult2();
-	*/
+
 
 	day15 d15("input/day15");
 	d15.getResult();
 	d15.getResult2();
+	*/
+
+	day16 d16("input/day16");
+	d16.getResult();
+	d16.getResult2();
+
 	return 0;
 }
