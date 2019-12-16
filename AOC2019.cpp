@@ -1,5 +1,4 @@
 #include"include/alldays.hpp"
-
 int main(void) {
 /*
 	day1 d1("input/day1");
@@ -60,10 +59,22 @@ int main(void) {
 	day14 d14("input/day14");
 	d14.getResult();
 	d14.getResult2();
-	*/
+
 
 	day15 d15("input/day15");
 	d15.getResult();
 	d15.getResult2();
+
+
+	day16 d16("input/day16");
+	d16.getResult();
+	d16.getResult2();
+*/
+
+	day17 d17("input/day17");
+	d17.getResult();
+	d17.getResult2();
+
+
 	return 0;
 }
