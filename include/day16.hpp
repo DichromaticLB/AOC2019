@@ -58,6 +58,10 @@ struct day16{
 			i++;
 		}
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 71b1a61e627805272e9c730ad442423b7a8ec0ab
 		for(auto&v:res)
 		{
 			if(v<0)

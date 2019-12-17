@@ -17,5 +17,8 @@
 #include"day14.hpp"
 #include"day15.hpp"
 #include"day16.hpp"
+<<<<<<< HEAD
 #include"day17.hpp"
+=======
+>>>>>>> 71b1a61e627805272e9c730ad442423b7a8ec0ab
 #endif
