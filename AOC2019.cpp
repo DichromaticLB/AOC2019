@@ -1,7 +1,4 @@
 #include"include/alldays.hpp"
-#include<stack>
-#include<list>
-
 
 int main(void) {
 /*
@@ -76,10 +73,15 @@ int main(void) {
 	day17 d17("input/day17");
 	d17.getResult();
 	d17.getResult2();
-*/
+
 	d18::day18 d18("input/day18");
 	d18.getResult();
 	d18.getResult2();
+*/
+	day19 d19("input/day19");
+	d19.getResult();
+	d19.getResult2();
+
 
 	return 0;
 }

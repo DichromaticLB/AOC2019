@@ -19,4 +19,5 @@
 #include"day16.hpp"
 #include"day17.hpp"
 #include"day18.hpp"
+#include"day19.hpp"
 #endif
