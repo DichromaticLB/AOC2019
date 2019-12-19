@@ -1,4 +1,8 @@
 #include"include/alldays.hpp"
+#include<stack>
+#include<list>
+
+
 int main(void) {
 /*
 	day1 d1("input/day1");
@@ -64,24 +68,18 @@ int main(void) {
 	day15 d15("input/day15");
 	d15.getResult();
 	d15.getResult2();
-<<<<<<< HEAD
-
-=======
-	*/
->>>>>>> 71b1a61e627805272e9c730ad442423b7a8ec0ab
 
 	day16 d16("input/day16");
 	d16.getResult();
 	d16.getResult2();
-<<<<<<< HEAD
-*/
 
 	day17 d17("input/day17");
 	d17.getResult();
 	d17.getResult2();
-
-=======
->>>>>>> 71b1a61e627805272e9c730ad442423b7a8ec0ab
+*/
+	d18::day18 d18("input/day18");
+	d18.getResult();
+	d18.getResult2();
 
 	return 0;
 }

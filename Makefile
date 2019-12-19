@@ -1,4 +1,4 @@
-CXXFLAGS =	-std=c++1y -O2	 -g -Wall
+CXXFLAGS =	-std=c++1y -O0	 -g -Wall
 OBJS =		AOC2019.o
 TARGET =	AOC2019
 
