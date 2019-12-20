@@ -77,11 +77,13 @@ int main(void) {
 	d18::day18 d18("input/day18");
 	d18.getResult();
 	d18.getResult2();
-*/
+
 	day19 d19("input/day19");
 	d19.getResult();
 	d19.getResult2();
-
-
+*/
+	day20 d20("input/day20");
+	d20.getResult();
+	d20.getResult2();
 	return 0;
 }
