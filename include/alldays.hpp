@@ -23,4 +23,7 @@
 #include"day20.hpp"
 #include"day21.hpp"
 #include"day22.hpp"
+#include"day23.hpp"
+#include"day24.hpp"
+#include"day25.hpp"
 #endif
