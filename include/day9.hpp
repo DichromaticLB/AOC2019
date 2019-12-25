@@ -1,6 +1,5 @@
 #ifndef INCLUDE_DAY9_HPP_
 #define INCLUDE_DAY9_HPP_
-
 #include<iostream>
 #include<string>
 #include<cstdint>

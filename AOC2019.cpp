@@ -106,5 +106,6 @@ int main(void) {
 	day25 d25("input/day25");
 	d25.getResult();
 	d25.getResult2();
+
 	return 0;
 }
